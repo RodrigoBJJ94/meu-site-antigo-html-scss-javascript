@@ -265,7 +265,7 @@ display: none;
         line-height: 1.2;
     }
     p {
-        font-size: 1.8rem;
+        font-size: 1.7rem;
     }
     .intro-content, .grid {
         grid-template-columns: 1fr;
@@ -345,6 +345,6 @@ display: none;
         margin-bottom: 5rem;
     }
     .project {
-        margin-bottom: -7rem;
+        margin-bottom: -8rem;
     }
 }
