@@ -207,44 +207,6 @@ body .full-width {
     flex-wrap: wrap;
     gap: var(--gap);
 }
-.form-grid legend {
-    font-style: italic;
-    font-size: 1.6rem;
-    margin-bottom: 3rem;
-}
-.form-group {
-    flex: 1 1 370px;
-}
-.form-group label {
-    display: block;
-    margin-bottom: 1rem;
-}
-.form-group input, .form-group textarea {
-    border: none;
-    background: white;
-    padding: 1.5rem 1.5rem;
-    width: 100%;
-    font-size: 2rem;
-}
-.form-group input:focus, .form-group textarea:focus {
-    box-shadow: 0 0 10px crimson;
-}
-.form-group button {
-    border: 0.2rem solid white;
-    background: none;
-    color: white;
-    padding: 1.5rem 1.5rem;
-    font-size: 2rem;
-    cursor: pointer;
-    transition: all 300ms ease-in-out;
-}
-.form-group button:hover {
-    background: white;
-    color: var(--primary-color);
-}
-.form-group ::placeholder {
-    color: lightgrey;
-}
 .footer {
     text-align: center;
     font-size: 2rem;
@@ -348,7 +310,7 @@ display: none;
         margin-bottom: 3rem;
     }
     .grid p {
-        margin-top: -4.5rem;
+        margin-top: -5.5rem;
     }
     .grid-description {
         margin-bottom: -0.5rem;
