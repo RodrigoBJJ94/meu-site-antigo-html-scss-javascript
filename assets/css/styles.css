@@ -42,6 +42,9 @@ h4 {
 h4 a {
     color: #0A1128;
 }
+h4 a:hover {
+    color:rgba(128, 128, 128, 0.76);
+}
 a {
     text-decoration: none;
 }
