@@ -343,4 +343,15 @@ display: none;
     .menu-spacing {
         display: none;
     }
+    .grid-main-heading {
+        margin-top: -6.5rem;
+        margin-bottom: 3rem;
+    }
+    .grid p {
+        margin-top: -3.5rem;
+    }
+    .grid-description {
+        margin-bottom: -1rem;
+        margin-top: -2rem;
+    }
 }
