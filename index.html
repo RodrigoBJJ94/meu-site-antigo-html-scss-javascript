@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu site</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="Close menu" role="button">
+    <label class="close-menu-label" for="close-menu" title="Close menu"></label>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">
+            <h1 onclick="getElementById('close-menu').checked =false;"><a href="#home">HOME</a></h1>
+            <nav>
+                <ul onclick="getElementById('close-menu').checked = false;">
+                    <li><a href="#intro">Conhecimentos</a></li>
+                    <li><a href="#grid-one">Tecnologias</a></li>
+                    <li><a href="#gallery">Projetos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
+    <div class="menu-spacing"></div>
+    <section id="home" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Desenvolvedor</h2>
+                <p>Sou um desenvolvedor/programador, com foco na parte de front-end, e em futuro próximo irei me focar também em desevolvimento mobile, além disso possuo conhecimento em back-end e banco de dados.</p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/javascript.svg"
+                    alt="Um homem segurando o logo do CSS, uma mulher empurando o logo do Javascript para o lado direito e outro homem segurando e analisando o logo do HTML">
+            </div>
+        </div>
+    </section>
+    <section id="intro" class="white-bg section">
+        <div class="main-content top3-content">
+            <h3>Conhecimentos</h3>
+            <p>Conhecimento nas linguagens: Javascript, HTML, CSS, EJS, Python e Java.</p>
+            <p>Conhecimento nos frameworks/bibliotecas: React e Bootstrap.</p>
+            <p>Conhecimento nos bancos de dados: MongoDB, MariaDB e PostgreSQL.</p>
+            <p>Conhecimento nas tecnologias: Node.js, Git, GitHub Desktop, MySQL Workbench e Insomnia.</p>
+            <p>Conhecimento nos editores/IDE: Visual Studio Code, PyCharm e NetBeans.</p>
+        </div>
+        
+    </section>
+    <section id="grid-one" class="grid-one main-bg section">
+        <div class="main-content grid-one-content">
+            <h3 class="grid-main-heading">Tecnologias</h3>
+            <p class="grid-description">Tecnologias usadas nesse site</p>
+            <div class="grid">
+                <article>
+                    <h3>HTML</h3>
+                    <p>HTML (HyperText Markup Language) é uma linguagem de marcação, é usada para criar páginas Web.</p>
+                </article>
+                <article>
+                    <h3>CSS</h3>
+                    <p>CSS é uma linguagem de folhas de estilo, que serve para dar estilo nas páginas Web, atua junto com o HTML e o Javascript.</p>
+                </article>
+                <article>
+                    <h3>Javascript</h3>
+                    <p>Javascript é uma linguagem de programação, com ela é possível fazer praticamente qualquer projeto, com inúmeros frameworks e bibliotecas.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id="gallery" class="grid-one white-bg section">
+        <div class="main-content grid-one-content">
+            <h2 class="grid-main-heading">Projetos</h2>
+            <p class="grid-description">Segue abaixo alguns dos meus projetos</p>
+            <h4><a href="https://rodrigobrentanocalculadora.netlify.app" target="_blank">Projeto calculadora</a></h4>
+            <h4><a href="https://rodrigobrentanoimc.netlify.app" target="_blank">Projeto IMC</a></h4>
+            <h4><a href="https://rodrigobrentanolistadetarefas.netlify.app" target="_blank">Projeto lista de tarefas</a></h4>
+            <h4><a href="https://rodrigobrentanolandingpage.netlify.app" target="_blank">Projeto landing page</a></h4>
+            <h4><a href="https://rodrigobrentanoposts.netlify.app" target="_blank">Projeto posts</a></h4>
+            <h4><a href="https://rodrigobrentanotimer.netlify.app" target="_blank">Projeto timer</a></h4>
+            <h4><a href="https://rodrigobrentanodataehora.netlify.app" target="_blank">Projeto data e hora</a></h4>
+            <h4><a href="https://rodrigobrentanoformulario.netlify.app" target="_blank">Projeto formulário</a></h4>
+        </div>
+        
+    </section>
+    <section id="contact" class="intro main-bg section">
+        <div class="main-content intro-content">
+            <div class="intro-text-content">
+                <h2>Contato</h2>
+                <p>WhatsApp: 51 992191122</p>
+                <p>LinkedIn: <a href="https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/" target="_blank">https://www.linkedin.com/in/rodrigo-brentano-26a7ba204/</a></p>
+                <p>E-mail: rodrigobjj24@gmail.com</p>
+                <p>GitHub: <a href="https://github.com/RodrigoBJJ94" target="_blank">https://github.com/RodrigoBJJ94</a></p>
+            </div>
+            <div class="intro-img">
+                <img src="assets/img/contact-developer.svg"
+                    alt="Um homem segurando o logo do CSS, uma mulher empurando o logo do Javascript para o lado direito e outro homem segurando e analisando o logo do HTML">
+                <div class="contact-form">
+
+                </div>
+            </div>
+
+    </section>
+    <footer id="footer" class="footer white-bg">
+        <p>Criado por Rodrigo Brentano</p>
+    </footer>
+    <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
