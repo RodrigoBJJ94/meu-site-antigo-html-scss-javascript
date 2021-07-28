@@ -275,7 +275,7 @@ display: none;
 }
 @media (max-width: 800px) {
     h2 {
-        font-size: 5.5rem;
+        font-size: 4rem;
         margin-bottom: 5rem;
         text-transform: uppercase;
         line-height: 1.2;
