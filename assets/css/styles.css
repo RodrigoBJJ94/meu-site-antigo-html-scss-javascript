@@ -430,4 +430,8 @@ display: none;
     .project {
         margin-bottom: -8rem;
     }
+    .tab {
+        text-indent: 3.5rem;
+        text-align: justify;
+    }
 }
