@@ -306,6 +306,11 @@ display: none;
     margin: 1rem;
 }
 
+.tab {
+    text-indent: 5rem;
+    text-align: justify;
+}
+
 @media (max-width: 800px) {
     h2 {
         font-size: 3.5rem;
