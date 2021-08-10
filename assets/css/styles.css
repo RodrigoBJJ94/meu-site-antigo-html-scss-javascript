@@ -402,6 +402,7 @@ display: none;
     .grid-description {
         margin-bottom: -4rem;
         margin-top: -2rem;
+        padding-bottom: 10rem;
     }
 
     .grid h3 {
