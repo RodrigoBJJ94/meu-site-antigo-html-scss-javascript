@@ -290,6 +290,13 @@ display: none;
     color: white;
 }
 
+.gaming {
+    background-image: url(/assets/img/gaming.svg);
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
 @media (max-width: 800px) {
     h2 {
         font-size: 3.5rem;
@@ -413,6 +420,13 @@ display: none;
     .tab {
         text-indent: 3.5rem;
         text-align: justify;
+    }
+
+    .gaming {
+        background-image: url(/assets/img/gaming.svg);
+        background-size: 80%;
+        background-repeat: no-repeat;
+        background-position: bottom;
     }
 }
 
