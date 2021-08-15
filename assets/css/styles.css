@@ -316,7 +316,7 @@ display: none;
     }
 
     .h4-games {
-        font-size: 2.1rem;
+        font-size: 2.0rem;
     }
 
     p {
@@ -452,5 +452,9 @@ display: none;
     .tab {
         text-indent: 3rem;
         text-align: justify;
+    }
+
+    .h4-games {
+        font-size: 1.5rem;
     }
 }
