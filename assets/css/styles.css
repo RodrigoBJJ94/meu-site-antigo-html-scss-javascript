@@ -154,6 +154,10 @@ body .full-width {
     margin-bottom: 10rem;
 }
 
+.top3-content p {
+    text-align: left;
+}
+
 .intro-content {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -279,6 +283,11 @@ display: none;
 
 .contact p {
     margin: 1rem;
+    text-align: center;
+}
+
+.contact {
+    text-align: center;
 }
 
 .tab {
@@ -313,6 +322,10 @@ display: none;
         margin-bottom: 5rem;
         text-transform: uppercase;
         line-height: 1.2;
+    }
+
+    .knowledge {
+        font-size: 3.2rem;
     }
 
     .h4-games {
@@ -442,6 +455,10 @@ display: none;
     }
 
     h2, h3 {
+        font-size: 2.7rem;
+    }
+
+    .knowledge {
         font-size: 2.7rem;
     }
 
