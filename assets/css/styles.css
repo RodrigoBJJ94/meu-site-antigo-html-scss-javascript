@@ -316,6 +316,10 @@ display: none;
         font-size: 2.0rem;
     }
 
+    .little {
+        font-size: 1.8rem;
+    }
+
     p {
         font-size: 1.7rem;
     }
