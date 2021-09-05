@@ -276,6 +276,7 @@ display: none;
 
 .tab {
     text-align: justify;
+    margin-bottom: -2rem;
 }
 
 .games a{
@@ -299,6 +300,11 @@ display: none;
         margin-bottom: 5rem;
         text-transform: uppercase;
         line-height: 1.2;
+    }
+
+    .dev {
+        margin-bottom: -1rem;
+        margin-top: -2rem;
     }
 
     h3 {
@@ -427,6 +433,8 @@ display: none;
 
     .tab {
         text-align: justify;
+        font-size: 1.4rem;
+        margin-bottom: -2rem;
     }
 
     .gaming {
@@ -455,9 +463,16 @@ display: none;
     }
 
     .tab {
-        text-indent: 3rem;
         text-align: justify;
+        font-size: 1.2rem;
+        margin-bottom: -2.8rem;
     }
+
+    .dev {
+        margin-bottom: -2rem;
+        margin-top: -2rem;
+    }
+
 
     .h4-games {
         font-size: 1.5rem;
