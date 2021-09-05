@@ -134,17 +134,9 @@ body .full-width {
     position: relative;
 }
 
-.top3-content h3 {
-    margin-bottom: 10rem;
-}
-
-.top3-content p {
-    text-align: center;
-}
-
 .intro-content {
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1.5fr 1fr;
     gap: var(--gap);
     min-height: 100vh;
 }
@@ -170,17 +162,13 @@ body .full-width {
 }
 
 .intro-img img, .intro-img svg {
-    max-width: 100%;
+    max-width: 160%;
     min-height: auto;
 }
 
-.top3-content {
-    max-width: 64rem;
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    min-height: 100vh;
-    text-align: center;
+.intro-img2 {
+    width: 150%;
+    align-self: center;
 }
 
 .grid-one-content {
@@ -196,33 +184,6 @@ body .full-width {
 
 .grid-description {
     padding-bottom: 3rem;
-}
-
-.gallery-img {
-    width: 100%;
-    max-width: 36rem;
-    max-height: 36rem;
-    overflow: hidden;
-}
-
-.gallery-img img {
-    transition: all 300ms ease-in-out;
-}
-
-.gallery-img img:hover {
-    transform: translate(-3%, 3%) scale(1.2);
-}
-
-.contact-form {
-    grid-column: span 2;
-}
-
-.contact-form .form-grid {
-    border: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: var(--gap);
 }
 
 .footer {
@@ -260,7 +221,15 @@ display: none;
 .back {
     background-image: url(/assets/img/undraw_my_app_re_gxtj.svg);
     background-size: cover;
-    background-position: center center;
+    background-position: center right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.apps-back {
+    background-image: url(/assets/img/react.svg);
+    background-size: cover;
+    background-position: center right;
     background-size: 50%;
     background-repeat: no-repeat;
 }
@@ -293,6 +262,16 @@ display: none;
 @media (max-width: 800px) {
     h1 {
         margin-bottom: 2rem;
+    }
+
+    .intro-img img, .intro-img svg {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .intro-img2 {
+        width: 100%;
+        align-self: center;
     }
 
     h2 {
@@ -423,6 +402,15 @@ display: none;
         background-position: bottom;
     }
 
+    .apps-back {
+        background-size: 90%;
+        background-position: bottom;
+    }
+
+    .desc-app {
+        margin-bottom: -7rem;
+    }
+
     .top3-content h3 {
         margin-bottom: 5rem;
     }
@@ -443,6 +431,10 @@ display: none;
         background-repeat: no-repeat;
         background-position: bottom;
     }
+ 
+    .h4-apps-little {
+        font-size: 1.95rem;
+    }
 }
 
 @media (max-width: 350px) {
@@ -450,8 +442,22 @@ display: none;
         font-size: 1.32rem;
     }
 
+    .intro-img img, .intro-img svg {
+        max-width: 100%;
+        min-height: auto;
+    }
+
+    .intro-img2 {
+        width: 100%;
+        align-self: center;
+    }
+
     h2, h3 {
         font-size: 2.7rem;
+    }
+
+    .h4-apps-little {
+        font-size: 1.58rem;
     }
 
     .knowledge {
@@ -473,8 +479,7 @@ display: none;
         margin-top: -2rem;
     }
 
-
     .h4-games {
-        font-size: 1.5rem;
+        font-size: 1.46rem;
     }
 }
